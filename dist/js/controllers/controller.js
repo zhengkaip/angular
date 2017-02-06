@@ -1,0 +1,1 @@
+myApp.controller("indexController",["$scope","$http",function(o,n){o.name="郑凯爱盼盼",n.get("../../json/jjxq.json").success(function(n){o.json=n,console.log(n)}),o.clickTag=function(n){o.json.page.splice(n,1)}}]),myApp.controller("loginController",["$scope",function(o){o.login="登录",o.touchStart=function(){alert(1)}}]);
