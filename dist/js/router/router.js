@@ -1,1 +1,1 @@
-myApp.config(["$stateProvider","$urlRouterProvider",function(e,l){l.otherwise("index"),e.state("index",{url:"/index",views:{"":{templateUrl:"../../templates/index.html",controller:"indexController"}}}).state("login",{url:"/login",views:{"":{templateUrl:"../../templates/login.html",controller:"loginController"}}})}]);
+myApp.config(["$stateProvider","$urlRouterProvider",function(e,t){t.otherwise("index"),e.state("index",{url:"/index",views:{"":{templateUrl:"../../templates/index.html",controller:"indexController"}}})}]);
